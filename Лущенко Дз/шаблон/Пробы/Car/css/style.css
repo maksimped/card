@@ -1,0 +1,115 @@
+*, :before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background-color: blue;
+  height: 400px;
+  width: 400px;
+  right: 95px;
+  top: 154px;
+}
+
+.header {
+  position: relative;
+  min-height: 600px;
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 15px;
+      grid-template-areas: "header-logo header-nav header-reg" "header-text . .";
+  -ms-grid-columns: 2fr 15px 5fr 15px 1fr;
+  grid-template-columns: 2fr 5fr 1fr;
+  -ms-grid-rows: 1fr 6fr;
+  grid-template-rows: 1fr 6fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FFFFFF;
+}
+.header-logo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  display: -ms-grid;
+  display: grid;
+  justify-items: start;
+  font-family: "Rajdhani", sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  grid-area: header-logo;
+  text-decoration: none;
+  margin-left: 40px;
+}
+.header-nav {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  text-decoration: none;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  grid-area: header-nav;
+}
+.header-nav_link {
+  font-family: "Open Sans", sans-serif;
+  color: #252A34;
+  text-decoration: none;
+  margin-right: 30px;
+}
+.header-nav_link:last-child {
+  margin-right: 0;
+}
+.header-reg {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-family: "Open Sans", sans-serif;
+  grid-area: header-reg;
+  margin-left: 80px;
+}
+.header-reg_btn {
+  margin-right: 20px;
+  justify-items: end;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  -moz-tab-size: 16px;
+    -o-tab-size: 16px;
+       tab-size: 16px;
+  color: #FF2E63;
+  width: 110px;
+  height: 40px;
+}
+.header-reg_btn:last-child {
+  text-size: 16px;
+  color: white;
+  width: 110px;
+  height: 40px;
+  background: #FF2E63;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.header-text {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  margin-left: 30px;
+  font-size: 30px;
+  line-height: 60px;
+  grid-area: header-text;
+  font-family: "Rajdhani", sans-serif;
+}

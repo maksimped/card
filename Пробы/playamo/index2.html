@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paintball</title>
+    <link rel="stylesheet" href="./style/style2.css">
+    <style type="text/css">
+        body {
+            font-family: Arial, Sans-Serif;
+            font-size: 13px;
+        }
+
+        #inputArea {
+            margin-left: 30%;
+            font-family: Arial, Sans-Serif;
+            font-size: 13px;
+            background-color: #d6e5f4;
+            padding: 10px;
+            width: 310px;
+        }
+
+        #inputArea input,
+        #inputArea textarea {
+            font-family: Arial, Sans-Serif;
+            font-size: 13px;
+            margin-bottom: 5px;
+            display: block;
+            padding: 4px;
+            width: 300px;
+        }
+
+        .activeField {
+            background-image: none;
+            background-color: #ffffff;
+            border: solid 1px #33677F;
+        }
+
+        .idle {
+            border: solid 1px #85b1de;
+            background-image: url('gray_bg.png');
+            background-repeat: repeat-x;
+            background-position: top;
+            background-color: #FFFFFF;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1>Paintball</h1>
+        <div class="maintext">
+            <img src="./image/1.jpeg" alt="">
+            <div class="text">
+                <h2>History</h2>
+                <p>Paintball is a skirmish sport in which players compete to eliminate opponents by tagging them with
+                    capsules containing water soluble dye propelled from paintball guns. It is a team game that can be
+                    played indoor or outdoor in fields or woods. It was conceived in 1981 in the United States</p>
+                <p> The required equipment include Paintball mask, paintball marker, paint grenades, compressed air or
+                    CO2 container, paintballs and hopper. Body armor is optional but players should wear it while gaming
+                    outside in woods for safety reasons. </p>
+
+                <p> In paintball, players of both teams need to eliminate each other by tagging them with the capsules
+                    (paintballs) containing non-toxic and biodegradable water-soluble dye and featuring a gelatin outer
+                    shell. These capsules are fired from the paintball marker/gun to hit the target. </p>
+
+                <p>It’s a regularly played game on the sporting level just like other organized competitions are
+                    executed with professional teams and players. As the game type varies so is the time of playing that
+                    may range from seconds to hours. It may prolong for days in the scenario play..</p>
+
+                <p>Different types of games are played with paintball including flag capturing, opponents’ elimination,
+                    ammunition limits, capturing the objects of interest concealed in the playing area and
+                    defending/attacking a specific point or area.
+
+                    Woodsball, MilSim (Military Simulation) and Speedball are the most commonly played paintball games
+                    in which players must wear protective masks.</p>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+
+        <div class="maintext">
+
+            <div class="text">
+                <h2>About</h2>
+                <p>Paintball is a sport played by people from all professions and lifestyles. It is a sport where women
+                    and men compete equally, and where age is not dominated by youth. Like a game of chess, being able
+                    to think quickly and decisively is what makes you a star in paintball. Intelligence and
+                    determination, not merely strength, speed or agility, are key to success in the sport.
+
+                    Paintball is a character-building sport. Players learn about teamwork, gain self-confidence and
+                    develop leadership abilities while having fun and getting welcome stress-relief. Increasingly,
+                    corporations are finding the benefits of having their staff and management participate in paintball
+                    games.
+
+                    Paintball is an exciting sport, and above all paintball is fun! It's a chance to shake off your
+                    day-to-day responsibilities and rekindle your spirit of adventure. When the adrenaline starts
+                    pumping, you can't help but love the thrill of the game!</p>
+
+                <p>For safety, paintball players always must wear goggles specifically designed for paintball to protect
+                    their eyes. Goggles must be worn during a game and at all times when a person is in an area where
+                    shooting is permitted, such as the target range or chronograph area. A protective facemask is
+                    mandatory nearly everywhere, and should be worn regardless. Paintball is a very safe sport as long
+                    as safety rules are followed. Insurance statistics have shown that paintball is safer than golf,
+                    jogging, tennis, swimming and many other sports.
+
+                    Referees on the field enforce safety and game rules. No physical contact is permitted in the game,
+                    and players are ejected from games or the playsite for breaking safety or playing rules. Fields have
+                    boundaries, and a player who steps outside a field's boundary is eliminated from that game.</p>
+                <p>A paintball is a round, thin-skinned gelatin capsule with colored liquid inside it. Paintballs are
+                    similar to large round vitamin capsules or bath oil beads. The fill inside paintballs is non-toxic,
+                    non-caustic, water-soluable and biodegradable. It rinses out of clothing and off skin with mild soap
+                    and water.
+
+                    Paintballs come in a rainbow of bright colors: blue, pink, white, orange, yellow and more. When a
+                    paintball tags a player, the thin gelatin skin splits open, and the liquid inside leaves a bright
+                    "paint" mark. A player who is marked is eliminated from the game.</p>
+
+            </div>
+            <img src="./image/paint.jpg" alt="">
+        </div>
+
+
+    </div>
+    <div id="inputArea">
+        <form method="post" action="#">
+            <label>Name:</label><input type="text" class="idle" onblur="this.className='idle'"
+                onfocus="this.className='activeField'" />
+            <label>E-mail:</label><input type="text" class="idle" onblur="this.className='idle'"
+                onfocus="this.className='activeField'" />
+            <label>Phone:</label><input type="text" class="idle" onblur="this.className='idle'"
+                onfocus="this.className='activeField'" />
+            <label>Question:</label><textarea rows="4" cols="30" class="idle" onblur="this.className='idle'"
+                onfocus="this.className='activeField'"></textarea>
+            <input type="submit" value="Send" class="idle" onblur="this.className='idle'"
+                onfocus="this.className='activeField'"></form>
+    </div>
+</body>
+
+</html>

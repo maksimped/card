@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+
+}
+
+.container {
+    max-width: 1000px;
+    width: 80%;
+    margin: 0 auto;
+    background: #f1f1f1;
+    padding: 10px;
+}
+
+.line-table {
+    border-bottom: 1px solid orange;
+
+}
+
+td,
+th {
+
+    padding: 10px;
+
+}

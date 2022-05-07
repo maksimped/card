@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    position: relative;
+    background-image: url(https://casino-pinup.com/wp-content/uploads/2018/11/xw8lkccf-c81i38m44-q17cr3ylt4.jpg);
+}
+
+img {
+    position: absolute;
+    width: 35vw;
+    height: 40vw;
+    margin: 1% 30% 0% 30%;
+}
+
+.button {
+    position: absolute;
+    margin: 42% 30% 0% 38%;
+}
+
+button {
+    
+    font-size: 150%;
+    font-weight: bold;
+    background: #d34836;
+    position: relative;
+    vertical-align: top;
+    width: 20vw;
+    height: 3vw;
+    
+    padding:7px 24px;
+    text-decoration:none;
+    color: #ffffff;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+      margin:20px;
+}
+
+button:active{
+    background:#be3e2d;
+    top: 2px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+button:hover{
+    top: 2px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+
+
+
+
+@media (max-width: 1424px) {
+    button {
+        font-size: 120%;
+    }
+}
+
+
+@media (max-width: 1180px) {
+    button {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 1000px) {
+    button {
+        width: 30vw;
+        height: 5vw;
+        font-size: 110%;
+        margin-top: 10%;
+
+    }
+
+    img {
+        width: 50vw;
+        height: 60vw;
+        margin-top: 5%;
+        margin-left: 25%;
+    }
+
+    .button {
+        margin-top: 65%;
+        display: flex;
+        margin-left: 36%;
+
+    }
+}
+
+@media (max-width: 600px) {
+    button {
+        width: 40vw;
+        height: 10vw;
+        font-size: 100%;
+        margin-top: 5%;
+    }
+
+    img {
+        width: 70vw;
+        height: 80vw;
+        margin-top: 20%;
+        margin-left: 10%;
+    }
+
+    .button {
+        margin-top: 110%;
+        margin-left: 26%;
+    }
+}
+
+
+
+
+@media (max-width: 380px) {
+    img {
+        height: 100vw;
+        width: 80vw;
+        margin-left: 5%;
+    }
+
+    button {
+        margin-top: 90%;
+        font-size: 90%;
+    }
+}

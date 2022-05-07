@@ -1,0 +1,23 @@
+.orange {
+
+    display: grid;
+    justify-items: center;
+
+    width: 50px;
+    padding: 5px;
+    margin: 0 auto;
+    color: rgb(187, 118, 118);
+    background: orange;
+}
+
+.red {
+
+    display: grid;
+    justify-items: center;
+
+    width: 50px;
+    padding: 5px;
+    margin: 0 auto;
+    color: rgb(202, 149, 149);
+    background: rgb(230, 74, 2);
+}

@@ -1,0 +1,18 @@
+.cards {
+    margin: 0 auto;
+    position: relative;
+    width: 2000px;
+    height: 2000px;
+
+
+    background: #EBEBEB;
+}
+
+
+.item-1 {
+    width: 531px;
+    height: 530px;
+
+
+    background-image: url(https://www.figma.com/file/YURF4mU6CAL3Bp6M7BjQJS/cards-Copy-Copy?node-id=0%3A49);
+}

@@ -1,0 +1,31 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock{
+  background-color: rgb(63, 66, 64);
+  height: 20vw;
+  width: 63vw;
+  border-radius:10px;
+  box-shadow: -3px 3px 7px rgb(66, 211, 66);
+               
+}
+
+.display{
+  font-size: 9vw;
+  color:rgb(66, 211, 66);
+  font-family: 'Lemonada', cursive;
+  text-align: center;
+}

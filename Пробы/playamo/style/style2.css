@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+}
+
+body {
+    background: #dde1e7;
+}
+
+h1 {
+    width: 5px;
+    margin: 5px auto;
+}
+
+.maintext {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.text {
+    margin-left: 10px;
+}
+
+h2 {
+    width: 5px;
+    margin: 0 auto;
+}
+
+p {
+    margin-top: 5px;
+}
+
+
+
+

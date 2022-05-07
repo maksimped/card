@@ -1,0 +1,85 @@
+*{
+    box-sizing:border-box;
+}
+
+
+html{
+    height: 100%;
+}
+
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    margin: 0;
+}
+
+.loginform {
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 16px;
+    font-size: 1.2em;
+}
+
+
+
+.loginform__body{
+    
+    margin: 0 0 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginform__row{
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+.loginform__row + .loginform__row{
+    margin-top: 12px;
+}
+
+.loginform__row--active .loginform__label{
+    
+    transform: translateY(0);
+    color: black;
+
+}
+
+.loginform__label{
+    
+    display: block;
+    padding-left: 16px;
+    transform: translateY(50%) translateY(14px) translateY(0.6em);
+    color:rgb(158, 154, 154);
+    margin-bottom: 4px;
+    transition: all .4s ease-in;
+    will-change: transform, color;
+}
+input{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.loginform__input{
+    display: block;
+    padding: 8px 12px;
+    font-size: inherit;
+}
+
+
+.loginform__action{
+    display: block;
+    padding: 12px;
+    background: rgb(231, 214, 58);
+    border: 0;
+    margin: 0;
+    width:100%;
+    border-radius:5px;
+    font-size: inherit;
+}

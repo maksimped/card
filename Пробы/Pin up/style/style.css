@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    position: relative;
+    background-image: url(https://casino-pinup.com/wp-content/uploads/2018/11/xw8lkccf-c81i38m44-q17cr3ylt4.jpg);
+}
+
+img {
+    position: absolute;
+    width: 35vw;
+    height: 40vw;
+    margin: 1% 30% 0% 30%;
+}
+
+.button {
+    position: absolute;
+    margin: 42% 30% 0% 40%;
+}
+
+button {
+    width: 10vw;
+    height: 3vw;
+    border-radius: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.button>:nth-child(1) {
+    border: 2px solid rgb(47, 179, 153);
+    cursor: pointer;
+}
+
+.button>:nth-child(2) {
+    border: 2px solid rgb(254, 92, 65);
+    cursor: pointer;
+}
+
+.button>:nth-child(1):hover {
+    border: 2px solid rgb(254, 92, 65);
+}
+
+.button>:nth-child(2):hover {
+    border: 2px solid rgb(47, 179, 153);
+}
+
+@media (max-width: 1424px) {
+    button {
+        font-size: 120%;
+    }
+}
+
+
+@media (max-width: 1180px) {
+    button {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 1000px) {
+    button {
+        width: 20vw;
+        height: 5vw;
+        font-size: 110%;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+
+    img {
+        width: 50vw;
+        height: 60vw;
+        margin-top: 5%;
+        margin-left: 25%;
+    }
+
+    .button {
+        margin-top: 65%;
+        display: flex;
+        margin-left: 30%;
+
+    }
+}
+
+@media (max-width: 600px) {
+    button {
+        width: 20vw;
+        height: 10vw;
+        font-size: 80%;
+        margin-top: 5%;
+    }
+
+    img {
+        width: 70vw;
+        height: 80vw;
+        margin-top: 30%;
+        margin-left: 10%;
+    }
+
+    .button {
+        margin-top: 120%;
+    }
+}
+
+h1 {
+    color: white;
+    margin-left: 38%;
+    letter-spacing: 2%;
+}
+  h2{
+    color: white;
+    margin-left: 43%;
+    letter-spacing: 2%;
+    margin-top: 55%;
+  }
